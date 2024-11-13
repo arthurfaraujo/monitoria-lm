@@ -1,0 +1,29 @@
+#iddadiv {
+  color: green;
+}
+
+.div-style {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.text-style {
+  color: rgb(255, 255, 255);
+}
+
+.hidden {
+  display: none;
+}
+
+p {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  p {
+    color: green;
+  }
+}
